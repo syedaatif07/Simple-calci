@@ -8,12 +8,11 @@
 .container {
     width: 100%;
     height: 100vh;
-    background:red ;
+    background:rgb(0, 217, 255) ;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 
 .calculator {
     background: #3a4452;
@@ -33,3 +32,23 @@
       border-radius: 10px;
       box-shadow: -4px -4px 10px rgba(244,244,244,0.1),5px 5px 10px rgba(0,0,0,0.1);
 }
+
+form .display {
+             display: flex;
+             justify-content: flex-end;
+             margin: 20px 0;
+            
+}
+form .display input{
+              text-align: right;
+              flex: 1;
+              font-size: 45px;
+              box-shadow: none;
+}
+form input .equual{
+  width:145px ;
+}
+form input.operator{
+  color: yellow;
+}
+ 
